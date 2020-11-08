@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="UTF-8">
+      <!-- Título -->
+      <title>FastPrev - Arquitetura & Engenharia</title>
+      <!-- Ícone -->
+      <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway|Roboto&display=swap" rel="stylesheet">
+      <!-- Ícones -->
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <!-- Bootstrap 4 -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!-- Normalize -->
+      <link rel="stylesheet" href="css/normalize.css">
+      <!-- Styles -->
+      <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+      
+      <header>
+
+      <!-- Top-bar -->
+
+        <div class="container-fluid topbar sticky-top">
+          <div class="row">
+            <div class="col tb-fonte">
+              <p><a href="https://api.whatsapp.com/send?phone=5513974106538">
+                <svg class="bi bi-chat-dots-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 01-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 11-2 0 1 1 0 012 0zm4 0a1 1 0 11-2 0 1 1 0 012 0zm3 1a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+              </svg> Clique aqui para contato via WhatsApp!</a></p>
+            </div>
+            <div class="col-md-auto tb-fonte">
+              <p><a href="mailto:fastprev@hotmail.com">
+                <svg class="bi bi-envelope-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M.05 3.555L8 8.414l7.95-4.859A2 2 0 0014 2H2A2 2 0 00.05 3.555zM16 4.697l-5.875 3.59L16 11.743V4.697zm-.168 8.108L9.157 8.879 8 9.586l-1.157-.707-6.675 3.926A2 2 0 002 14h12a2 2 0 001.832-1.195zM0 11.743l5.875-3.456L0 4.697v7.046z"/>
+              </svg> fastprev@hotmail.com</a></p>
+            </div>
+            <div class="col col-lg-2 tb-fonte">
+              <p><a href="#">
+                <svg class="bi bi-geo-alt" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10zm0-7a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
+              </svg> São Vicente, SP</a></p>
+            </div>
+          </div>
+        </div>
+
+    <!-- Navbar -->
+      
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+          <a class="navbar-brand" href="index.html">
+            <img src="/img/logo.png" class="img-responsive" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link nav-fonte" href="index.html">Início<span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link nav-fonte" href="quem somos.html">Quem somos</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-fonte dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nossos serviços
+                </a>
+              
+              <!-- Dropdown Menu -->
+              
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item nav-fonte" href="servicos-1-projetos.html">projetos</a>
+                  <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item nav-fonte" href="servicos-2-laudos.html">laudos</a>
+                  <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item nav-fonte" href="servicos-3-documentacoes.html">documentações</a>
+                  <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item nav-fonte" href="servicos-4-treinamentos.html">treinamentos</a>
+                  <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item nav-fonte" href="servicos-5-estudos.html">estudos</a>
+
+                </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link nav-fonte" href="contato.php">Contato</a>
+                  </li>
+
+            </ul>
+          </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+      <!-- Slide -->
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-interval="3500" data-ride="carousel">
+            <ol class="carousel-indicators">
+
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/img/slide1.jpg" class="d-block w-100 img-slide" alt="slide-1">
+                <div class="carousel-caption d-none d-md-block h-50">
+                  <h1 class="fonte-slide">Regularização de Imóvel Residencial e Comercial</h1>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="/img/slide2.jpg" class="d-block w-100 img-slide" alt="slide-2">
+                <div class="carousel-caption d-none d-md-block h-50">
+                  <h1 class="fonte-slide">Carta de Habite-se</h1>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="/img/slide3.jpg" class="d-block w-100 img-slide" alt="slide-3">
+                <div class="carousel-caption d-none d-md-block h-50">
+                  <h1 class="fonte-slide">Reformas e Construção Comercial e Residencial</h1>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="/img/slide4.jpg" class="d-block w-100 img-slide" alt="slide-3">
+                <div class="carousel-caption d-none d-md-block h-50">
+                  <h1 class="fonte-slide">Projetos de Desdobro e Unificação de Lote</h1>
+                </div>
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+          </div>
+
+        <!-- Cabeçalho -->
+
+        <div class="container">
+
+          <div class="row">
+
+              <div class="col-md-6">
+                <span class="fonte-span text-muted font-italic">SEJA BEM-VINDO</span>
+                  <h1 class="fonte-h1">AO WEBSITE DA FASTPREV</h1>
+                    <p class="text-justify fonte-paragrafo">Aqui você vai encontrar informações sobre esta empresa de caráter inovador que vem prestando com excelência serviços de consultoria e assessoria. 
+                      A família FASTPREV é composta por Arquitetos, Engenheiros, Geólogos, Empreiteiros, Médico do Trabalho, Técnicos do Ministério do Trabalho, Técnicos em edificações e Desenhista Cadista.
+                        </p> 
+                </div>
+                
+                <div class="col-md-6">
+                  <img src="/img/fastprev-open.jpg" alt="consultoria e assessoria em engenharia, arquitetura e segurança do trabalho">
+                </div>
+
+          </div>
+        </div>
+
+      <!-- Cards -->
+
+          <section class="container-fluid bg-light" id="trabalhos">
+            <h3 class="text-center fonte-card display-4">Nossos serviços</h3>
+
+            <div class="row justify-content-center">
+
+              <article class="card border-light-mb-3 card-largura p-0 m-4 col-12 col-md-4">
+                <img src="img/construcoes.jpg" class="card-img-top img-card" alt="construcoes">
+                  <div class="card-body">
+                    <h5 class="card-title">Construções e Reformas</h5>
+                      <p class="card-text">Construções, reformas e alvarás.</p>
+                        <a href="servicos-1.html" class="btn button-color">Saiba mais</a>
+                  </div>
+              </article>
+
+              <article class="card border-light-mb-3 card-largura p-0 m-4 col-12 col-md-4">
+                <img src="img/laudos.jpg" class="card-img-top img-card" alt="laudos">
+                  <div class="card-body">
+                    <h5 class="card-title">Laudos</h5>
+                      <p class="card-text">Avaliação ambiental, avaliação acústica, vistorias, recuperação estrutural, etc.</p>
+                        <a href="servicos-2-laudos.html" class="btn button-color">Saiba mais</a>
+                  </div>
+              </article>
+
+              <article class="card border-light-mb-3 card-largura p-0 m-4 col-12 col-md-4">
+                <img src="img/documentacoes.jpg" class="card-img-top img-card" alt="documentacoes">
+                  <div class="card-body">
+                    <h5 class="card-title">Documentações</h5>
+                      <p class="card-text">Carta Habite-se comercial e residencial, aquisição de AVCB.</p>
+                        <a href="servicos-3-documentacoes.html" class="btn button-color">Saiba mais</a>
+                  </div>
+              </article>
+
+            </div>
+
+            <div class="row justify-content-center">
+              <article class="card border-light-mb-3 card-largura p-0 m-4 col-12 col-md-4">
+                <img src="img/treinamentos.jpg" class="card-img-top img-card" alt="treinamentos">
+                  <div class="card-body">
+                    <h5 class="card-title">Treinamentos</h5>
+                      <p class="card-text">Brigada de incêndio, utilização e conservação de EPI, etc.</p>
+                        <a href="servicos-4-treinamentos.html" class="btn button-color">Saiba mais</a>
+                  </div>
+              </article>
+
+              <article class="card border-light-mb-3 card-largura p-0 m-4 col-12 col-md-4">
+                <img src="img/estudos.jpg" class="card-img-top img-card" alt="estudos">
+                  <div class="card-body">
+                    <h5 class="card-title">Estudos</h5>
+                      <p class="card-text">Topográfico e Geológico.</p>
+                        <a href="servicos-5-estudos.html" class="btn button-color">Saiba mais</a>
+                  </div>
+              </article>
+
+              <article class="card border-light-mb-3 card-largura p-0 m-4 col-12 col-md-4">
+                <img src="img/projetos.jpg" class="card-img-top img-card" alt="projetos">
+                  <div class="card-body">
+                    <h5 class="card-title">Projetos</h5>
+                      <p class="card-text">Planos de gerenciamento, desdobro, regularização e construções.</p>
+                        <a href="servicos-1-projetos.html" class="btn button-color">Saiba mais</a>
+                  </div>
+              </article>
+            </div>
+          </section>
+
+                <!-- Projetos Recentes -->
+
+                  <div class="container-fluid bg-light">
+                    
+                      <h1 class="text-center display-4 m-0 py-5 h1-projrec">Projetos recentes</h1>
+
+                    <div class="row justify-content-center">
+
+                      <div class="card card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="/img/recentes/1.jpg" class="card-img-top img-projrec shadow" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Execução de reformas em fachada.</p>
+                        </div>
+                      </div>
+
+                      <div class="card card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="/img/recentes/2.jpg" class="card-img-top img-projrec shadow" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Alvará para pequena reforma.</p>
+                        </div>
+                      </div>
+
+                      <div class="card card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="img/recentes/3.jpg" class="card-img-top img-projrec shadow" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Acompanhamento de projetos.</p>
+                        </div>
+                      </div>
+                    
+                    </div>
+
+                    <div class="row justify-content-center">
+
+                      <div class="card card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="img/recentes/4.jpg" class="card-img-top img-projrec shadow" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Demolição e realização de projeto.</p>
+                        </div>
+                      </div>
+
+                      <div class="card card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="img/recentes/5.jpg" class="card-img-top img-projrec shadow" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Realização de projetos para construção e alvará de obra.</p>
+                        </div>
+                      </div>
+
+                      <div class="card card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="img/recentes/6.jpg" class="card-img-top img-projrec shadow" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Realização de projeto.</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    
+                    <div class="row justify-content-center">
+
+                      <div class="card card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="img/recentes/7.jpg" class="card-img-top img-projrec shadow" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Realização de AVCB/CLCB - Alto de Vistoria do Corpo de Bombeiros.</p>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                <!-- Parceiros -->
+
+                  <section class="container-fluid bg-light" id="clientes parceiros">
+                    <h3 class="text-center fonte-prc display-4">Clientes & Parceiros</h3>
+                  
+                      <div id="carouselExampleControls" class="carousel slide mt-5 d-none d-sm-block" data-ride="carousel">
+                                            
+                        <div class="carousel-inner">
+
+                              <div class="carousel-item active" data-interval="3500">
+
+                                  <div class="row justify-content-center">
+
+                                      <div class="col-3 py-3">
+                                          <img src="/img/parceiros/1.jpg" class="img-fluid d-block mx-auto shadow"></a>
+                                      </div>
+
+                                      <div class="col-3 py-3">
+                                          <img src="/img/parceiros/2.jpg" class="img-fluid d-block mx-auto shadow"></a>
+                                      </div>
+
+                                      <div class="col-3 py-3">
+                                          <img src="/img/parceiros/3.jpg" class="img-fluid d-block mx-auto shadow"></a>
+                                      </div>
+                                  </div>
+                                
+                              </div>
+
+                              
+                              <div class="carousel-item" data-interval="3500">
+
+                                  <div class="row justify-content-center">
+
+                                      <div class="col-3 py-3">
+                                          <img src="/img/parceiros/4.jpg" class="img-fluid d-block mx-auto shadow"></a>
+                                      </div>
+
+                                      <div class="col-3 py-3">
+                                          <img src="/img/parceiros/5.jpg" class="img-fluid d-block mx-auto shadow"></a>
+                                      </div>
+
+                                      <div class="col-3 py-3">
+                                          <img src="/img/parceiros/6.jpg" class="img-fluid d-block mx-auto shadow"></a>
+                                      </div>
+
+                                  </div>  
+
+                              </div>  
+                              
+                              
+                              <div class="carousel-item" data-interval="3500">
+
+                                  <div class="row justify-content-center">
+
+                                      <div class="col-3 py-3">
+                                          <img src="/img/parceiros/7.jpg" class="img-fluid d-block mx-auto shadow"></a>
+                                      </div>
+
+                                      <div class="col-3 py-3">
+                                          <img src="/img/parceiros/8.jpg" class="img-fluid d-block mx-auto shadow"></a>
+                                      </div>
+
+                                      <div class="col-3 py-3">
+                                          <img src="/img/parceiros/9.jpg" class="img-fluid d-block mx-auto shadow"></a>
+                                      </div>
+
+                                  </div>  
+
+                              </div>
+                              
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                  <h1 class="text-dark"><svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                                  </svg></h1>
+                                </a>
+
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                  <h1 class="text-dark"><svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L10.293 8 4.646 2.354a.5.5 0 010-.708z" clip-rule="evenodd"/>
+                                  </svg></h1>
+                                </a>
+                            
+                  </section>
+
+            
+                <!-- Vídeo de Apresentação -->
+
+                    <div class="container" id="video-apresentativo">
+
+                      <div class="row">
+
+                        <div class="column-66">
+                          <h1 class="xlarge-font"><b>A empresa</b></h1>
+                          <h1 class="large-font" style="color:MediumSeaGreen;"><b>Por que a FastPrev?</b></h1>
+                          <p class="video-font"><span style="font-size:36px">Agradecemos pela sua atenção.</span> Para saber mais sobre nossa empresa, assista ao vídeo institucional e e entenda porque cada vez mais clientes ficam satisfeitos com o nosso trabalho.</p>
+                          <button class="btn button-color">Entre em contato</button>
+                        </div>
+
+                          <div class="column-33">
+                            <video class="video-fluid z-depth-1" autoplay loop controls muted>
+                            <source src="img/video/video1.mp4" type="video/mp4">
+                            </video>
+                          </div>
+                        </div>
+                      </div>
+
+              </main>
+
+                <!-- Rodapé -->
+
+                    <footer class="p-3 text-center rodape">
+                      
+                      <div class="row justify-content-center">
+                            <a href="https://www.facebook.com/pages/category/Company/Fastprev-Consultoria-e-Assessoria-1391432994479460/"><i class="fab fa-facebook icones" id="facebook"></a></i>
+                            <a href="https://www.instagram.com/fastprev/"><i class="fab fa-instagram icones" id="instagram"></i></a>
+                      </div>
+                          <p class="text-light text-center">REDES SOCIAIS</p>
+                        <hr>
+                          <p class="text-light text-center">Copyright © 2020 FastPrev - Todos os Direitos Reservados</p>
+                        <hr>
+                          <p class="text-light text-center">Desenvolvido por <a class="tf-fonte" href="mailto:gabrieltrudes@hotmail.com">Gabriel Trudes</a></p>
+                    
+                    </footer>
+
+
+
+      <!-- Scripts -->
+
+        <!-- Scripts FontAwesome -->
+        <script src="https://kit.fontawesome.com/2b3d0aec19.js" crossorigin="anonymous"></script>
+        <!-- Scripts Bootstrap 4 -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

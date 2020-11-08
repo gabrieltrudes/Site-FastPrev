@@ -1,0 +1,330 @@
+/*
+TOP-BAR
+*/
+
+.topbar {
+    background-color: #1c1c1c;
+}
+
+.topbar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tb-fonte {
+    padding: 10px 0px 0px 30px;
+}
+
+/*
+NAVEGAÇÃO
+*/
+
+nav {
+    background-color: #fffafa;
+}
+
+.nav-fonte {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    transition: color .7s;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-item:hover {
+    color: #f5ab35;
+    transition: color .7s;
+}
+
+/*
+SLIDE
+*/
+
+.img-slide {
+    object-fit: cover;
+    height: 400px;
+}
+
+.fonte-slide {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*
+CABEÇALHO
+*/
+
+.fonte-span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fonte-h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.fonte-paragrafo {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+CARDS
+*/
+
+.fonte-card {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.fonte-card::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: currentColor;
+    display: block;
+    margin: 15px auto;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.button-color {
+    background-color: #4CAF50;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.img-card {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*
+PROJETOS RECENTES
+*/
+
+.h1-projrec {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.h1-projrec::after {
+    content: '';
+    width: 160px;
+    height: 5px;
+    background-color: currentColor;
+    display: block;
+    margin: 15px auto;
+}
+
+.img-projrec {
+    object-fit: cover;
+    height: 300px;
+}
+
+/*
+PARCEIROS
+*/
+
+.fonte-prc {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.fonte-prc::after {
+  content: '';
+  width: 250px;
+  height: 5px;
+  background-color: currentColor;
+  display: block;
+  margin: 15px auto;
+}
+
+/*
+VÍDEO DE APRESENTAÇÃO
+*/
+
+* {
+  box-sizing:border-box;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px
+}
+
+.video-font {
+  font-size: 18px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+video {
+  display: block;
+  height: auto;
+  width: auto;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+
+  video {
+    margin: auto;
+  }
+
+}
+
+/*
+FOOTER
+*/
+
+.icones {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.icones:hover {
+  color: #f5ab35;
+  transition: color .7s;
+  
+}
+
+#facebook {
+  padding: 10px;
+}
+
+#instagram {
+  padding: 10px;
+}
+
+a { 
+    color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f5ab35;
+    transition: color .7s;
+}
+
+.tf-fonte {
+    color: #F4A460
+}
+
+.rodape {
+    background-color: #000000;
+}
+
+.rodape p {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------------------------ PRÓXIMAS PÁGINAS -------------------------------------- */
+
+/*
+QUEM SOMOS
+*/
+
+.icon {
+  font-size: 46px;
+  color: #4f4f4f;
+  padding-inline-start: 1.5em;
+}
+
+.icon-empresa {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+.fonte-empresa {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+/*
+PROJETOS
+*/
+
+.img-projetos {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.texto-projetos {
+    text-align: center;
+    color:#fff;
+    margin: 0;
+    position:relative;
+    bottom:250px;
+}
+
+.header-projetos {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.paragrafo-projetos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
